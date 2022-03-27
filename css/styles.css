@@ -1,0 +1,202 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #00BFFF;
+}
+
+h2 {
+  font-weight: 900;
+  color: #00BFFF;
+}
+
+.insta-link {
+  color: #00BFFF;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title {
+  background-color: #00BFFF;
+  color: #fffff2;
+}
+#features {
+  padding: 4% 15%;
+  background-color: #fff;
+}
+
+#testimonial {
+  background-color: #203239;
+  color: white;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#Pricing {
+  padding: 100px;
+  padding: 7% 15%;
+}
+
+#cta {
+  background-color: #203239;
+  color: white;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 7% 15%;
+}
+
+#footer {
+  background-color: #fff;
+  color: black;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+  padding: 1% 1%;
+}
+
+/* .about-us {} */
+
+.brand {
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  align-content: center;
+  background-image: url(https://davisstreettattoo.com/app/themes/dst/assets/dist/img/dallas-tattoo-artists.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  padding-bottom: 300px;
+}
+
+.col-main {
+  /* padding: 7% 15%; */
+  vertical-align: middle;
+}
+
+.container-fluid-testimonial {
+  background-image: url(https://davisstreettattoo.com/app/themes/dst/assets/dist/img/shop.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+.container-fluid-pricing {}
+
+/* Sections */
+.col {
+  padding: 2% 2%;
+}
+
+.testimonial-image {
+  width: 50%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 3% 15% 2%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-p {
+  font-weight: bold;
+}
+
+.number {
+  color: #00BFFF;
+  padding-top: 50px;
+}
+
+.h3-img {
+  height: 100px;
+  width: 100px;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.h3-img:hover {
+  background-color: #00BFFF;
+}
+
+/* navigation bar */
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+/* NAV LINK */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* Buttons */
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.main-button {
+  margin: 3% 3% 3% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+  transform: rotate(-15deg);
+}
